@@ -33,5 +33,42 @@
       <input type="color" />
       <button>Submit</button>
     </form>
+
+    <h2>Other Form Controls</h2>
+    <form action="">
+      <input type="range" min="0" max="10" name="volume_level" step="2" />
+      <textarea rows="10" cols="20">
+Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Pariatur amet delectus qui consectetur nulla 
+         tenetur recusandae nesciunt nostrum minima, ipsam tempora maxime 
+         obcaecati, quisquam repudiandae autem! Nesciunt ratione ipsa dolores?</textarea
+      >
+      <button>Submit</button>
+    </form>
+    <h2>Checkbox & Radio Buttons</h2>
+    <h3>Checkbox</h3>
+    <form action="">
+      <label for="">I agree to the terms of service</label>
+      <input type="checkbox" id="agree_tos" name="tos" />
+      <button>Submit</button>
+
+      <h3>Radio Buttons</h3>
+      <label for="phone">Call Me</label>
+      <input type="radio" id="phone" name="contact" value="phone" />
+      <label for="email">Email Me</label>
+      <input type="radio" id="email" name="contact" value="email" />
+      <!--We need to give all the radio buttons the same name-->
+      <button>Submit</button>
+    </form>
+    <h2>Select Element</h2>
+    <form action="">
+      <label for="shirtsize">Select your shirt size:</label>
+      <select name="shirtsize" id="shirtsize">
+        <option value="s">Small</option>
+        <option value="m">Medium</option>
+        <option value="l">Large</option>
+      </select>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
