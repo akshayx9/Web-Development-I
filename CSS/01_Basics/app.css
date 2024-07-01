@@ -1,11 +1,24 @@
+body {
+    background-color: rgb(255, 255, 0);
+}
+
 p {
+    /* Change the text color */
     color: coral;
 }
 
 a {
     color: cyan;
+    /*Hexadecimal Color Example*/
+    background-color: #0daf08;
 }
 
 h2 {
-    color: magenta;
+    color: orangered;
+    background-color: cyan;
+    opacity: 0.5;
+}
+
+h1 {
+    background-color: rgba(212, 0, 255, 0.5);
 }
