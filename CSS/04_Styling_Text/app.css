@@ -4,6 +4,8 @@ h1 {
     font-weight: normal;
     text-align: center;
     letter-spacing: 20px;
+    /* text-shadow: magenta -4px 4px 4px; */
+    text-shadow: -4px 4px 4px magenta, -8px 8px 4px cyan; /*Multiple text shadows*/
 }
 
 body {
