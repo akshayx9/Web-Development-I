@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 p {
     /* Change the text color */
-    color: coral;
+    color: purple;
 }
 
 a {
@@ -21,4 +21,21 @@ h2 {
 
 h1 {
     background-color: rgba(212, 0, 255, 0.5);
+}
+
+ul {
+    color: yellowgreen; /*The <li> elements inside the ul inherit the same yellowgreen color.*/
+}
+
+span {
+    color: orange;
+}
+
+div {
+    color: red;
+    border: 1px solid blue;
+}
+
+p { 
+    border: inherit; /*The word inherit in tha value for any property turns on the inheritance for that element*/
 }
