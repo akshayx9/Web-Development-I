@@ -1,0 +1,48 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+h1 {
+    /* text-decoration-line: line-through;
+    text-decoration-color: cyan;
+    text-decoration-style: wavy; */
+    text-decoration: magenta wavy line-through;
+}
+
+#featured {
+    background-color: gold;
+    font-size: 20px;
+}
+
+#reviews {
+    text-decoration: gold underline;
+}
+
+.tag {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+#cast {
+    list-style-type: "\1F44D";
+    list-style-position: outside;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: orangered;
+}
+
+a:hover {
+    color:magenta;
+    text-decoration: underline;
+    cursor: crosshair;
+}

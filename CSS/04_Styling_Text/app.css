@@ -24,3 +24,7 @@ a {
     font-size: 20px; /*makes the links smaller. They no longer inherit the size of paragraph element*/
     font-style: italic;
 }
+
+h2 {
+    font: 100 50px san-serif; /*we are using the font shorthand here*/
+}
