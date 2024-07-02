@@ -1,0 +1,69 @@
+/*Universal Selector*/
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+/*Element Selector*/ 
+p {
+    color: purple;
+}
+
+/*Class Selector*/
+.tag {
+    color: orange;
+}
+
+/*ID Selector*/
+
+#featured {
+    color: gold;
+}
+
+/*Attribute Selector*/
+input[type=number] {
+    background-color: gold;
+}
+
+/*Special Attribute Selector Syntax*/
+
+/*To select elements with a string like "wiki" anywhere in the attribute*/
+a[href*="wiki"] {
+    color: cyan;
+}
+
+/*To select elements with a URL that starts with "#" */
+a[href^="#"] {
+    color: yellowgreen;
+}
+
+/*To select elements with a URL that ends with a particular string like ".org" */
+a[href$=".org"] {
+    color: red;
+}
+
+/*Grouping Selectors*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Work Sans", sans-serif;
+}
+
+.score, #featured, .tag {
+    background-color: orangered;
+}
+
+/*Descandants Combinator*/
+
+#cast span {
+    color: blue;
+}
+
+/*Child Combinator*/
+ol > li {
+    border: 1px solid red;
+}
+
+/*Compound Selector*/
+h2.score {
+    color: blueviolet;
+}
