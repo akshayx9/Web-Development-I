@@ -39,6 +39,9 @@
     height: 300px;
     font-size: 40px;
     margin: 0 auto;
-    /* overflow: hidden;*/
+    /* overflow: visible; */
+    /* overflow: hidden; */
     overflow: scroll;
+    /* overflow-x: hidden;
+       overflow-y: hidden; */
 }

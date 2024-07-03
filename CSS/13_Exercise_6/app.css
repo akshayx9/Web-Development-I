@@ -1,0 +1,41 @@
+body {
+    background-color: #463d36;
+    color: #463d36;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+
+.container h2 {
+    font-size: 28px;
+    color: #a6192e;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.container p {
+    font-size: 28px; /*The font size gives the element a default margin of the same size*/
+}
+
+.container button {
+    background-color: #463d36;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* text-align: center; */
+    padding: 30px 40px;
+}
