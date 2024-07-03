@@ -55,9 +55,6 @@ div {
     border: 50px solid green;
 }
 
-p {
-    font-size: 30px;
-}
 
 #word {
     border: 10px solid teal;
@@ -98,4 +95,10 @@ h2 {
     border: 1px solid black;
     width: 150px;
     margin:auto;
+}
+
+p {
+    font-size: 30px;
+    border: 1px solid mediumseagreen;
+    margin: 20px 0 50px 0;
 }

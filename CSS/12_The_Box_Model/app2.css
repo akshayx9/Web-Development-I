@@ -1,0 +1,44 @@
+/*Creating a common layout pattern*/
+#container {
+    margin-left: 200px;
+}
+
+/*Min & Max Width & Height*/
+.box {
+    width: 80%;
+    min-width: 300px;
+    max-width: 500px;
+    height:  200px;
+    background-color: mediumvioletred;
+    margin: 0 auto;
+}
+
+/*Rounding Elements with Border Radius*/
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: forestgreen;
+    border-radius: 10px 20px 30px 40px;
+}
+
+/*Box Shadows*/
+
+.box3 {
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid grey; */
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px red, -2px -2px 10px blue;
+}
+
+/*Overflow*/
+.box4 {
+    border: 6px solid olive;
+    width: 300px;
+    height: 300px;
+    font-size: 40px;
+    margin: 0 auto;
+    /* overflow: hidden;*/
+    overflow: scroll;
+}
